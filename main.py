@@ -7,7 +7,7 @@ topic = 'tesla'
 
 url =   "https://newsapi.org/v2/everything?" \
         f"q={topic}&" \
-        "from=2024-12-20&" \
+        "from=2024-12-21&" \
         "sortBy=publishedAt&" \
         "language=en&" \
         "apiKey=3b319c643ace403e9d87dbd08f2fb587" \
@@ -23,7 +23,6 @@ content = request.json()
 #     print(article['title'])
 #     print(article['description'])
 #     print('\n')
-
 
 # Making the text for mail
 text = "Subject: Today's news " + '\n'
